@@ -16,6 +16,14 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>nl.hhs</groupId>
+            <artifactId>tfa</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/2021Authentication2FALibrary.jar</systemPath>
+        </dependency>
+
     </dependencies>
 
     <properties>
